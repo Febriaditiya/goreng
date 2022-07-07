@@ -1,0 +1,369 @@
+ERROR - 2022-07-05 01:36:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as id
+FROM `pelayanan`
+ORDER BY `id` DESC
+ LIMIT 1' at line 1
+CRITICAL - 2022-07-05 01:36:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as id
+FROM `pelayanan`
+ORDER BY `id` DESC
+ LIMIT 1' at line 1
+#0 C:\xampp\htdocs\antri\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT RIGHT(id...', 0)
+#1 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT RIGHT(id...')
+#2 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT RIGHT(id...')
+#3 C:\xampp\htdocs\antri\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT RIGHT(id...', Array, false)
+#4 C:\xampp\htdocs\antri\app\Models\PelayananModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(26): App\Models\PelayananModel->id()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-05 01:37:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ORDER BY `id` DESC
+ LIMIT 1' at line 1
+CRITICAL - 2022-07-05 01:37:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ORDER BY `id` DESC
+ LIMIT 1' at line 1
+#0 C:\xampp\htdocs\antri\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(id, ...', 0)
+#1 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(id, ...')
+#2 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(id, ...')
+#3 C:\xampp\htdocs\antri\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(id, ...', Array, false)
+#4 C:\xampp\htdocs\antri\app\Models\PelayananModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(26): App\Models\PelayananModel->id()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-05 01:38:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ORDER BY `id` ASC
+ LIMIT 1' at line 1
+CRITICAL - 2022-07-05 01:38:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ORDER BY `id` ASC
+ LIMIT 1' at line 1
+#0 C:\xampp\htdocs\antri\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(id, ...', 0)
+#1 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(id, ...')
+#2 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(id, ...')
+#3 C:\xampp\htdocs\antri\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(id, ...', Array, false)
+#4 C:\xampp\htdocs\antri\app\Models\PelayananModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(26): App\Models\PelayananModel->id()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-05 01:38:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ORDER BY `id`
+ LIMIT 1' at line 1
+CRITICAL - 2022-07-05 01:38:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ORDER BY `id`
+ LIMIT 1' at line 1
+#0 C:\xampp\htdocs\antri\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(id, ...', 0)
+#1 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(id, ...')
+#2 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(id, ...')
+#3 C:\xampp\htdocs\antri\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(id, ...', Array, false)
+#4 C:\xampp\htdocs\antri\app\Models\PelayananModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(26): App\Models\PelayananModel->id()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-05 01:42:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ LIMIT 1' at line 1
+CRITICAL - 2022-07-05 01:42:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ LIMIT 1' at line 1
+#0 C:\xampp\htdocs\antri\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(id, ...', 0)
+#1 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(id, ...')
+#2 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(id, ...')
+#3 C:\xampp\htdocs\antri\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(id, ...', Array, false)
+#4 C:\xampp\htdocs\antri\app\Models\PelayananModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(26): App\Models\PelayananModel->id()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-07-05 01:44:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ORDER BY `id`
+ LIMIT 1' at line 1
+CRITICAL - 2022-07-05 01:44:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 2) as id
+FROM `pelayanan`
+ORDER BY `id`
+ LIMIT 1' at line 1
+#0 C:\xampp\htdocs\antri\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(id, ...', 0)
+#1 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(id, ...')
+#2 C:\xampp\htdocs\antri\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(id, ...')
+#3 C:\xampp\htdocs\antri\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(id, ...', Array, false)
+#4 C:\xampp\htdocs\antri\app\Models\PelayananModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(26): App\Models\PelayananModel->id()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-05 01:51:02 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\antri\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/pelayanan/daft...', Array, true)
+#3 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(35): view('/pelayanan/daft...', Array)
+#4 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-05 01:52:41 --> Array to string conversion
+#0 C:\xampp\htdocs\antri\app\Views\pelayanan\daftar_layanan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/pelayanan/daft...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(35): view('/pelayanan/daft...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 01:53:06 --> Array to string conversion
+#0 C:\xampp\htdocs\antri\app\Views\pelayanan\daftar_layanan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/pelayanan/daft...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(35): view('/pelayanan/daft...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 01:53:41 --> Array to string conversion
+#0 C:\xampp\htdocs\antri\app\Views\pelayanan\daftar_layanan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/pelayanan/daft...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(35): view('/pelayanan/daft...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 01:53:54 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\antri\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/pelayanan/daft...', Array, true)
+#3 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(35): view('/pelayanan/daft...', Array)
+#4 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-05 01:55:49 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(26): App\Models\PelayananModel->id()
+#1 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#2 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#3 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-05 01:56:16 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+#0 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(26): App\Models\PelayananModel->id()
+#1 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->daftar()
+#2 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#3 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-05 03:00:12 --> Undefined variable $antrian
+#0 C:\xampp\htdocs\antri\app\Views\loket\ambil_loket.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(60): view('/loket/ambil_lo...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('2')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 03:02:37 --> Undefined variable $n
+#0 C:\xampp\htdocs\antri\app\Views\loket\ambil_loket.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(60): view('/loket/ambil_lo...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('2')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 03:02:56 --> Undefined variable $values
+#0 C:\xampp\htdocs\antri\app\Views\loket\ambil_loket.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(60): view('/loket/ambil_lo...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('2')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 03:03:15 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\antri\app\Views\loket\ambil_loket.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(60): view('/loket/ambil_lo...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('2')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 03:04:36 --> Undefined array key "kode"
+#0 C:\xampp\htdocs\antri\app\Views\loket\ambil_loket.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(60): view('/loket/ambil_lo...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('2')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 03:07:38 --> Undefined array key "kode"
+#0 C:\xampp\htdocs\antri\app\Views\loket\ambil_loket.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(60): view('/loket/ambil_lo...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('2')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 03:11:11 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\antri\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#3 C:\xampp\htdocs\antri\app\Controllers\Loket.php(62): view('/loket/ambil_lo...', Array)
+#4 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('2')
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-07-05 03:12:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\antri\app\Views\loket\ambil_loket.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(62): view('/loket/ambil_lo...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('$1')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 03:13:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\antri\app\Views\loket\ambil_loket.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/ambil_lo...', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(62): view('/loket/ambil_lo...', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->panggil('$1')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 07:43:14 --> Undefined variable $title
+#0 C:\xampp\htdocs\antri\app\Views\layout\template.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\antri\app\Controllers\Home.php(22): view('index', Array)
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-05 07:52:18 --> Undefined variable $title
+#0 C:\xampp\htdocs\antri\app\Views\layout\template.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/pelayanan/inde...', Array, true)
+#5 C:\xampp\htdocs\antri\app\Controllers\Pelayanan.php(21): view('/pelayanan/inde...', Array)
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Pelayanan->index()
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelayanan))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-05 07:56:04 --> Undefined variable $title
+#0 C:\xampp\htdocs\antri\app\Views\layout\template.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/index', Array, true)
+#5 C:\xampp\htdocs\antri\app\Controllers\Loket.php(22): view('/loket/index', Array)
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->index('$1')
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#8 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-07-05 08:06:02 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-05 11:02:14 --> Undefined property: stdClass::$Nama
+#0 C:\xampp\htdocs\antri\app\Views\loket\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/index', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(26): view('/loket/index', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->index('$1')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-05 11:02:31 --> Undefined property: stdClass::$Nama
+#0 C:\xampp\htdocs\antri\app\Views\loket\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\antri\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\antri\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\antri\system\Common.php(1089): CodeIgniter\View\View->render('/loket/index', Array, true)
+#4 C:\xampp\htdocs\antri\app\Controllers\Loket.php(26): view('/loket/index', Array)
+#5 C:\xampp\htdocs\antri\system\CodeIgniter.php(832): App\Controllers\Loket->index('$1')
+#6 C:\xampp\htdocs\antri\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Loket))
+#7 C:\xampp\htdocs\antri\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\antri\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\antri\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
