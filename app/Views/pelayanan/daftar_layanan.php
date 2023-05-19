@@ -4,7 +4,7 @@
 <?php
 $tz = 'Asia/Jakarta';
 $dt = new DateTime("now", new DateTimeZone($tz));
-$timestamp = $dt->format('Y/m/d | G:i');
+$timestamp = $dt->format('D/M/Y | G:i');
 ?>
 
 <div class="container">
